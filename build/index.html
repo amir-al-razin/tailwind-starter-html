@@ -8,11 +8,30 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="h-screen bg-yellow-100 grid place-items-center">
-      <h1 class="text-8xl  text-yellow-400 font-semibold">
-        Tailwind css starter
-      </h1>
-      <p class="absolute right-0 p-2 bg-yellow-400 text-white bottom-0 font-semibold">made by Amir Razin</p>
+    <div class="h-screen grid place-items-center">
+      <div class="content">
+        <h1 class=" text-8xl text-indigo-300 mb-5 font-semibold">
+          Tailwind css starter
+        </h1>
+        <div class="dummy-content p-4 h-64 w-full rounded-xl bg-indigo-300">
+          <div class="flex animate-pulse jusify-start items-center">
+            <div class="avatar mr-4 h-12 rounded-full bg-indigo-200 w-12"></div>
+            <div class="h-5 rounded-full w-64 bg-indigo-200"></div>
+          </div>
+          <div class="flex animate-pulse flex-col mt-3 gap-2">
+            <div class="h-5 bg-indigo-200 rounded-full w-16"></div>
+            <div class="h-5 bg-indigo-200 rounded-full w-84"></div>
+            <div class="h-5 bg-indigo-200 rounded-full w-32"></div>
+            <div class="h-5 bg-indigo-200 rounded-full w-8"></div>
+            <div class="h-5 bg-indigo-200 rounded-full w-102"></div>
+          </div>
+        </div>
+      </div>
+      <p
+        class="absolute right-0 py-2 px-3 bg-yellow-400 text-white bottom-0 font-semibold"
+      >
+        made by Amir Razin
+      </p>
     </div>
   </body>
 </html>
