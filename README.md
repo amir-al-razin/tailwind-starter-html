@@ -1,2 +1,5 @@
 # tailwind-starter-html
-###hope,this is will make your workflow a bit easier in sha Allah!
+### hope,this is will make your workflow a bit easier in sha Allah!
+
+*packages* | postcss-cli | autoprefixer | tailwindcss
+--------|------|-----|-----
